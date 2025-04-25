@@ -4,9 +4,7 @@ import com.alura.screenmatch.modelos.Pelicula;
 import com.alura.screenmatch.modelos.Serie;
 import com.alura.screenmatch.modelos.Titulo;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.*;
 
 public class PrincipalConListas
 {
@@ -45,7 +43,7 @@ public class PrincipalConListas
         });
         */
 
-        ArrayList<String> listaDeArtistas = new ArrayList<>();
+        List<String> listaDeArtistas = new LinkedList<>();
         listaDeArtistas.add("Penélope Cruz");
         listaDeArtistas.add("Antonio Banderas");
         listaDeArtistas.add("Armando Barreras");
